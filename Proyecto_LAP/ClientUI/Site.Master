@@ -7,7 +7,7 @@
   
  
 	<meta charset="utf-8">
-	<title>ROGER'S</title>
+	<title>ROGER'S !</title>
 
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +23,7 @@
 
 
 
-    f
+    
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
