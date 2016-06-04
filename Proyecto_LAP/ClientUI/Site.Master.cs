@@ -67,8 +67,28 @@ namespace ClientUI
             }
         }
 
+
+        public String getEmail()
+        {
+            try
+            {
+                string email = ClaimsPrincipal.Current.FindFirst("email").Value;
+                return email;
+            }
+            catch (Exception)
+            {
+                return null;
+               
+            }
+       
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ( getEmail()==""|| getEmail() == null)
+            {
+             //   Response.Redirect("~/login.html");
+            }
 
         }
 

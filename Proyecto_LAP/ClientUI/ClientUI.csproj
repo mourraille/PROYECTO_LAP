@@ -218,9 +218,14 @@
     <Content Include="css\animate.min.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\loginstyle.css" />
     <Content Include="css\nivo-lightbox.css" />
     <Content Include="css\style.css" />
-    <Content Include="favicon.ico.png" />
+    <Content Include="images\close.png" />
+    <Content Include="images\face.png" />
+    <Content Include="images\twit.png" />
+    <Content Include="login.html" />
+    <Content Include="mainicon.png" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -233,6 +238,7 @@
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="LoginCallback.ashx" />
+    <Content Include="fonts\Blenda Script.otf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="images\footer-bg.jpg" />
     <Content Include="images\gallery-img1.jpg" />
@@ -284,7 +290,9 @@
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Bundle.config" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
